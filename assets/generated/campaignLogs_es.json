@@ -298,7 +298,7 @@
           },
           {
             "id": "claypool_has_confronted_his_demons",
-            "text": "Claypool has confronted his demons."
+            "text": "Claypool se ha enfrentado a sus demonios."
           },
           {
             "id": "convinced_dyer_to_allow_the_expedition",
@@ -306,11 +306,11 @@
           },
           {
             "id": "cookie_has_confronted_his_demons",
-            "text": "Cookie has confronted his demons."
+            "text": "Cookie se ha enfrentado a sus demonios."
           },
           {
             "id": "danforth_has_confronted_his_demons",
-            "text": "Danforth has confronted his demons."
+            "text": "Danforth se ha enfrentado a sus demonios."
           },
           {
             "id": "did_not_believe_dyers_report",
@@ -318,79 +318,79 @@
           },
           {
             "id": "discovered_an_ancient_vault",
-            "text": "The team discovered an ancient vault."
+            "text": "El equipo descubrió una antigua cámara."
           },
           {
             "id": "dr_kensler_has_a_plan",
-            "text": "Dr. Kensler has a plan."
+            "text": "la Dra. Kensler tiene un plan."
           },
           {
             "id": "dr_kensler_has_confronted_her_demons",
-            "text": "Dr. Kensler has confronted her demons."
+            "text": "la Dra. Kensler se ha enfrentado a sus demonios."
           },
           {
             "id": "dr_kensler_is_on_the_verge_of_understanding",
-            "text": "Dr. Kensler is on the verge of understanding."
+            "text": "la Dra. Kensler está a punto de entenderlo."
           },
           {
             "id": "dr_kensler_is_sharing_her_research_with_you",
-            "text": "Dr. Kensler is sharing her research with you."
+            "text": "la Dra. Kensler comparte su investigación con los investigadores."
           },
           {
             "id": "dr_kensler_understands_the_true_nature_of_the_miasma",
-            "text": "Dr. Kensler understands the true nature of the miasma."
+            "text": "la Dra. Kensler entiende la verdadera naturaleza del miasma."
           },
           {
             "id": "dr_sinha_has_confronted_her_demons",
-            "text": "Dr. Sinha has confronted her demons."
+            "text": "la Dra. Sinha se ha enfrentado a sus demonios."
           },
           {
             "id": "dyer_has_confronted_his_demons",
-            "text": "Dyer has confronted his demons."
+            "text": "Dyer se ha enfrentado a sus demonios."
           },
           {
             "id": "eliyah_has_confronted_his_demons",
-            "text": "Eliyah has confronted his demons."
+            "text": "Eliyah se ha enfrentado a sus demonios."
           },
           {
             "id": "ellsworth_has_confronted_his_demons",
-            "text": "Ellsworth has confronted his demons."
+            "text": "Ellsworth se ha enfrentado a sus demonios."
           },
           {
             "id": "facility_was_destroyed",
-            "text": "the facility was destroyed."
+            "text": "la instalación fue destruida."
           },
           {
             "id": "nameless_madness_escaped",
-            "text": "the nameless madness escaped."
+            "text": "la locura sin nombre escapó."
           },
           {
             "id": "nameless_madness_is_contained_safely_within_its_host_for_now",
-            "text": "the nameless madness is contained safely within its host… for now."
+            "text": "la locura sin nombre está contenida de forma segura dentro de su anfitriona… por ahora."
           },
           {
             "id": "photographed_the_astronomical_charts",
-            "text": "The team photographed the astronomical charts."
+            "text": "El equipo fotografió los atlas estelares."
           },
           {
             "id": "read_the_map",
-            "text": "the team read the map."
+            "text": "el equipo leyó el mapa."
           },
           {
             "id": "scouted_the_city_outskirts",
-            "text": "the investigators scouted the city outskirts."
+            "text": "los investigadores exploraron las afueras de la ciudad."
           },
           {
             "id": "scouted_the_forked_passage",
-            "text": "the investigators scouted the forked passage."
+            "text": "los investigadores exploraron el pasadizo bifurcado."
           },
           {
             "id": "scouted_the_mountain_pass",
-            "text": "the investigators scouted the mountain pass."
+            "text": "los investigadores otearon el paso de montaña."
           },
           {
             "id": "studied_the_mural_carvings",
-            "text": "the team studied the mural carvings."
+            "text": "el equipo estudió los murales tallados."
           },
           {
             "id": "surviving_investigators",
@@ -398,7 +398,7 @@
           },
           {
             "id": "surviving_members_header",
-            "text": "the survivors of the expedition were:"
+            "text": "los supervivientes de la expedición fueron:"
           },
           {
             "id": "surviving_partners",
@@ -406,7 +406,7 @@
           },
           {
             "id": "takada_has_confronted_her_demons",
-            "text": "Takada has confronted her demons."
+            "text": "Takada se ha enfrentado a sus demonios."
           },
           {
             "id": "team_barely_escaped_the_ice_shelf",
@@ -422,7 +422,7 @@
           },
           {
             "id": "team_escaped_the_facility",
-            "text": "the team escaped the facility."
+            "text": "el equipo huyó de la instalación."
           },
           {
             "id": "team_fled_to_the_mountains",
@@ -434,19 +434,19 @@
           },
           {
             "id": "team_found_the_hidden_tunnel",
-            "text": "the team found the hidden tunnel."
+            "text": "el equipo encontró el túnel oculto."
           },
           {
             "id": "team_was_guided_to_the_hidden_tunnel",
-            "text": "the team was guided to the hidden tunnel."
+            "text": "el equipo fue guiado hacia el túnel oculto."
           },
           {
             "id": "the_seal_was_used_improperly",
-            "text": "the seal was used… improperly."
+            "text": "el sello se usó… de forma incorrecta."
           },
           {
             "id": "truth_of_the_mirage_eludes_you",
-            "text": "the truth of the mirage eludes you."
+            "text": "a los investigadores se les escapa la verdad del espejismo."
           }
         ]
       },
@@ -827,75 +827,75 @@
         "entries": [
           {
             "id": "airfield",
-            "text": "Airfield"
+            "text": "Aeródromo"
           },
           {
             "id": "alaskan_wilds",
-            "text": "Alaskan Wilds"
+            "text": "Naturaleza de Alaska"
           },
           {
             "id": "alien_translation",
-            "text": "Memory of an Alien Translation"
+            "text": "Recuerdo de una traducción alienígena"
           },
           {
             "id": "cluttered_dormitory",
-            "text": "Cluttered Dormitory"
+            "text": "Residencia desordenada"
           },
           {
             "id": "dr_kenslers_office",
-            "text": "Dr. Kensler's Office"
+            "text": "Despacho de la Dra. Kensler"
           },
           {
             "id": "dyers_classroom",
-            "text": "Dyer's Classroom"
+            "text": "Aula de Dyer"
           },
           {
             "id": "hunt_gone_awry",
-            "text": "Memory of a Hunt Gone Awry"
+            "text": "Recuerdo de una cacería torcida"
           },
           {
             "id": "infirmary",
-            "text": "Infirmary"
+            "text": "Dispensario"
           },
           {
             "id": "lost_patient",
-            "text": "Memory of a Lost Patient"
+            "text": "Recuerdo de un paciente perdido"
           },
           {
             "id": "missing_father",
-            "text": "Memory of a Missing Father"
+            "text": "Recuerdo de un padre desaparecido"
           },
           {
             "id": "moai_statues",
-            "text": "Mo'ai Statues"
+            "text": "Moáis"
           },
           {
             "id": "ottoman_front",
-            "text": "Ottoman Front"
+            "text": "Frente otomano"
           },
           {
             "id": "ravaged_country",
-            "text": "Memory of a Ravaged Country"
+            "text": "Recuerdo de un país asolado"
           },
           {
             "id": "regretful_voyage",
-            "text": "Memory of a Regretful Voyage"
+            "text": "Recuerdo de un viaje pesaroso"
           },
           {
             "id": "terrible_discovery",
-            "text": "Memory of a Terrible Discovery"
+            "text": "Recuerdo de un descubrimiento terrible"
           },
           {
             "id": "the_black_stone",
-            "text": "The Black Stone"
+            "text": "La piedra negra"
           },
           {
             "id": "unrequited_love",
-            "text": "Memory of an Unrequited Love"
+            "text": "Recuerdo de un amor no correspondido"
           },
           {
             "id": "unspeakable_evil",
-            "text": "Memory of an Unspeakable Evil"
+            "text": "Recuerdo de un mal innombrable"
           }
         ]
       },
@@ -904,75 +904,75 @@
         "entries": [
           {
             "id": "airfield",
-            "text": "Airfield"
+            "text": "Aeródromo"
           },
           {
             "id": "alaskan_wilds",
-            "text": "Alaskan Wilds"
+            "text": "Naturaleza de Alaska"
           },
           {
             "id": "base_camp",
-            "text": "Base Camp"
+            "text": "Campamento base"
           },
           {
             "id": "cluttered_dormitory",
-            "text": "Cluttered Dormitory"
+            "text": "Residencia desordenada"
           },
           {
             "id": "coastal_waters",
-            "text": "Coastal Waters"
+            "text": "Aguas costeras"
           },
           {
             "id": "deck_of_the_theodosia",
-            "text": "Deck of the Theodosia"
+            "text": "Cubierta del Theodosia"
           },
           {
             "id": "deserted_station",
-            "text": "Deserted Station"
+            "text": "Estación desierta"
           },
           {
             "id": "dr_kenslers_office",
-            "text": "Dr. Kensler's Office"
+            "text": "Despacho de la Dra. Kensler"
           },
           {
             "id": "dyers_classroom",
-            "text": "Dyer's Classroom"
+            "text": "Aula de Dyer"
           },
           {
             "id": "elder_chamber",
-            "text": "Elder Chamber"
+            "text": "Cámara de los Antiguos"
           },
           {
             "id": "hedge_maze",
-            "text": "Hedge Maze"
+            "text": "Laberinto de setos"
           },
           {
             "id": "infirmary",
-            "text": "Infirmary"
+            "text": "Dispensario"
           },
           {
             "id": "moai_statues",
-            "text": "Mo'ai Statues"
+            "text": "Moáis"
           },
           {
             "id": "ottoman_front",
-            "text": "Ottoman Front"
+            "text": "Frente otomano"
           },
           {
             "id": "riverview_theatre",
-            "text": "Riverview Theatre"
+            "text": "Teatro de Riverview"
           },
           {
             "id": "standing_stones",
-            "text": "Standing Stones"
+            "text": "Piedras verticales"
           },
           {
             "id": "the_black_stone",
-            "text": "The Black Stone"
+            "text": "La piedra negra"
           },
           {
             "id": "university_halls",
-            "text": "University Halls"
+            "text": "Salas de la universidad"
           }
         ]
       },
@@ -1259,6 +1259,10 @@
           {
             "id": "possessed",
             "text": "uno o más investigadores fueron poseídos."
+          },
+          {
+            "id": "reprint_language",
+            "text": "dummy"
           },
           {
             "id": "tpm_conviction_or_doubt",
@@ -1685,6 +1689,10 @@
           {
             "id": "possessed",
             "text": "uno o más investigadores fueron poseídos."
+          },
+          {
+            "id": "reprint_language",
+            "text": "dummy"
           },
           {
             "id": "tpm_conviction_or_doubt",

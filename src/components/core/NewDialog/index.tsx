@@ -13,6 +13,7 @@ import Card from '@data/types/Card';
 import CompactInvestigatorRow from '../CompactInvestigatorRow';
 import LanguageContext from '@lib/i18n/LanguageContext';
 import AppModal from '../AppModal';
+import SectionHeader from './SectionHeader';
 
 interface Props {
   title: string;
@@ -124,6 +125,7 @@ function NewDialog(props: Props) {
   );
 }
 
+NewDialog.SectionHeader = SectionHeader;
 NewDialog.ContentLine = NewDialogContentLine;
 NewDialog.PickerItem = ItemPickerLine;
 NewDialog.TextInput = TextInputLine;

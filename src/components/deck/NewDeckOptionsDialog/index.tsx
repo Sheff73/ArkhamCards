@@ -289,6 +289,8 @@ function NewDeckOptionsDialog({
         card,
         colors,
         true,
+        undefined,
+        undefined,
         tabooSetId
       );
       return;

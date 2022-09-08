@@ -102,7 +102,7 @@ export default function DeleteCampaignButton({ componentId, actions, campaignId,
       <>
         {archiveButton}
         <DeckButton
-          icon="delete"
+          icon="trash"
           title={standalone ? t`Leave standalone` : t`Leave campaign`}
           thin
           color="red_outline"
@@ -116,7 +116,7 @@ export default function DeleteCampaignButton({ componentId, actions, campaignId,
     <>
       {archiveButton}
       <DeckButton
-        icon="delete"
+        icon="trash"
         title={standalone ? t`Delete standalone` : t`Delete campaign`}
         thin
         color="red_outline"

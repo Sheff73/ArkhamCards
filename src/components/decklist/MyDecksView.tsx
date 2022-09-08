@@ -152,7 +152,7 @@ MyDecksView.options = () => {
 
 export default withFetchCardsGate(
   MyDecksView,
-  { promptForUpdate: false },
+  { promptForUpdate: true },
 );
 
 const styles = StyleSheet.create({

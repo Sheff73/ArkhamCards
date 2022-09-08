@@ -179,13 +179,10 @@ export default class CampaignGuide {
     return section.partners || [];
   }
 
-  prologueScenarioId(): string {
-    return this.campaign.campaign.scenarios[0];
+  prologueScenarioId(scenarios: string[] | undefined): string {
+    return (scenarios || this.campaign.campaign.scenarios)[0];
   }
 
-  scenarioIds() {
-    return this.campaign.campaign.scenarios;
-  }
 
   processAllScenarios(
     campaignState: CampaignStateHelper,
@@ -199,7 +196,22 @@ export default class CampaignGuide {
         this,
         campaignState
       );
-      forEach(this.allScenarioIds(), scenarioId => {
+      const setupScenario = this.findScenario(CAMPAIGN_SETUP_ID);
+      const nextScenarios = this.actuallyProcessScenario(
+        setupScenario.id,
+        setupScenario.scenario,
+        campaignState,
+        campaignLog,
+        standalone,
+        previousCampaign
+      );
+      forEach(nextScenarios, scenario => {
+        scenarios.push(scenario);
+        campaignLog = scenario.latestCampaignLog;
+      });
+
+      const scenarioIds = campaignLog.campaignData.scenarios || this.campaign.campaign.scenarios;
+      forEach(scenarioIds, scenarioId => {
         if (!find(scenarios, scenario => scenario.scenarioGuide.id === scenarioId)) {
           const scenario = this.findScenario(scenarioId);
           const nextScenarios = this.actuallyProcessScenario(
@@ -283,7 +295,7 @@ export default class CampaignGuide {
     }
 
     const scenarios = filter(
-      this.allScenarioIds(),
+      this.allScenarioIds(campaignLog.campaignData.scenarios),
       scenarioId => includeSkipped || campaignLog.scenarioStatus(scenarioId) !== 'skipped'
     );
     const currentIndex = findIndex(
@@ -375,7 +387,6 @@ export default class CampaignGuide {
       campaignLog,
       !!standalone
     );
-
     if (!campaignState.startedScenario(id.encodedScenarioId)) {
       if (
         (campaignLog.campaignData.result === 'lose' && scenarioGuide.scenarioType() !== 'epilogue') ||
@@ -571,10 +582,10 @@ export default class CampaignGuide {
     };
   }
 
-  private allScenarioIds() {
+  private allScenarioIds(scenarios: string[] | undefined) {
     return [
       CAMPAIGN_SETUP_ID,
-      ...this.campaign.campaign.scenarios,
+      ...(scenarios || this.campaign.campaign.scenarios),
     ];
   }
 

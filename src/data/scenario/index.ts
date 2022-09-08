@@ -72,6 +72,7 @@ export interface DisplayChoice {
   card?: Card;
   image?: string;
   imageOffset?: 'right' | 'left';
+  hidden?: boolean;
 }
 
 export interface DisplayChoiceWithId extends DisplayChoice {

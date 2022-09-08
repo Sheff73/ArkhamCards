@@ -28,6 +28,7 @@ import {
   RTTCU,
   EOE,
   CROWN_OF_EGIL,
+  TSK,
 } from '@actions/types';
 import { ChaosBag } from '@app_constants';
 import Card from '@data/types/Card';
@@ -64,6 +65,7 @@ export function campaignName(cycleCode: CampaignCycleCode): string | null {
     case TDEB: return t`The Web of Dreams`;
     case TIC: return t`The Innsmouth Conspiracy`;
     case EOE: return t`Edge of the Earth`;
+    case TSK: return t`The Scarlet Keys`;
     case CUSTOM: return null;
     case STANDALONE: return t`Standalone`;
     case DARK_MATTER: return t`Dark Matter`;
@@ -327,6 +329,7 @@ export function campaignScenarios(cycleCode: CampaignCycleCode): Scenario[] {
     case CALL_OF_THE_PLAGUEBEARER:
     case DARK_MATTER:
     case TDE:
+    case TSK:
     case CUSTOM:
     case STANDALONE:
     case GOB:
@@ -356,6 +359,7 @@ export function campaignNames() {
     tdeb: t`The Web of Dreams`,
     tic: t`The Innsmouth Conspiracy`,
     eoe: t`Edge of the Earth`,
+    tsk: t`The Scarlet Keys`,
     gob: t`Guardians of the Abyss`,
     zdm: t`Dark Matter`,
     zaw: t`Alice in Wonderland`,
@@ -540,6 +544,7 @@ export function getCampaignLog(
         ],
       };
     case GOB:
+    case TSK:
       return {
         sections: [
           t`Campaign Notes`,
@@ -839,6 +844,7 @@ export function getChaosBag(
     case RTNOTZ:
     case CUSTOM:
     case STANDALONE:
+    case TSK:
       return NOTZ_BAG[difficulty];
     case DWL:
     case RTDWL:
